@@ -2,132 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54559864-f3ce-4228-8616-75496db8770d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/abztest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/advertisement2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ava.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bg2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comp1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comp2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comp3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo-img.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/men1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/men2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/men3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/men4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/men5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/notif.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/peop1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/peop2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/peop3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/prod1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/prod2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/Services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/Services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/ServicesError/ServicesError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Services/ServicesError/ServicesError.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/Companies/Companies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/Companies/Companies.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/Companies/Company/Company.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/Companies/Company/Company.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/Menu/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/Menu/Menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/SidebarL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarL/SidebarL.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/People/People.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/People/People.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/People/Person/Person.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/People/Person/Person.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/Products/Product/Product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/Products/Product/Product.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/Products/Products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/Products/Products.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/SidebarR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarR/SidebarR.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Footer/Footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Form/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Form/Form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Contacts/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Page/Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Page/Page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Backdrop/Backdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Backdrop/Backdrop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Modal/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Modal/Modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-BoldIt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/fonts/ProximaNova-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/styles/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/styles/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/utils/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Contacts/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Contacts/Form/Form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,104 +91,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
+          <entry key="js" value="2" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarR/People/Person/Person.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarR/Products/Product/Product.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarL/SidebarL.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarR/SidebarR.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="3" selection-start-line="10" selection-start-column="1" selection-end-line="16" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarR/SidebarR.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="63" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarL/Menu/Menu.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SidebarL/SidebarL.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4182" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/containers/Contacts/Form/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-773" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Main/Services/Services.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="181" column="56" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#componentDidMount#0;n#ContactsForm#0" />
+                <element signature="e#1512#1928#0" />
+                <element signature="e#1969#2572#0" />
+                <element signature="e#2607#3275#0" />
+                <element signature="e#3309#3495#0" />
+                <element signature="e#3530#3642#0" />
+                <element signature="e#3679#3871#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -375,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/ui/Backdrop/Backdrop.js" />
         <option value="$PROJECT_DIR$/src/ui/styles/colors.scss" />
         <option value="$PROJECT_DIR$/src/containers/Contacts/Form/Form.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Contacts/Form/Form.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/components/Main/Services/Services.scss" />
@@ -383,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/components/SidebarR/Products/Product/Product.scss" />
         <option value="$PROJECT_DIR$/src/components/SidebarL/SidebarL.js" />
         <option value="$PROJECT_DIR$/src/components/SidebarL/SidebarL.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Contacts/Form/Form.js" />
       </list>
     </option>
   </component>
@@ -423,7 +230,28 @@
             <path>
               <item name="testabz" type="b2602c69:ProjectViewProjectNode" />
               <item name="testabz" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testabz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testabz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testabz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testabz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testabz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testabz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,21 +310,22 @@
       <workItem from="1536739879442" duration="3420000" />
       <workItem from="1536744840102" duration="28482000" />
       <workItem from="1536824087163" duration="20493000" />
-      <workItem from="1536846099758" duration="238000" />
+      <workItem from="1536846099758" duration="1198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101188000" />
+    <option name="totallyTimeSpent" value="102145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19818456" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.30369127" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.30369127" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -703,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Contacts/Form/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="158" column="26" selection-start-line="158" selection-start-column="26" selection-end-line="158" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/styles/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -810,13 +632,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/SidebarL/Menu/Menu.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main/Services/Services.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SidebarL/SidebarL.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -831,7 +646,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-773" />
+        <state relative-caret-position="-161" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main/Services/Services.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Contacts/Form/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="181" column="56" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#ContactsForm#0" />
+            <element signature="e#1512#1928#0" />
+            <element signature="e#1969#2572#0" />
+            <element signature="e#2607#3275#0" />
+            <element signature="e#3309#3495#0" />
+            <element signature="e#3530#3642#0" />
+            <element signature="e#3679#3871#0" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

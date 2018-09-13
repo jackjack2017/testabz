@@ -179,7 +179,7 @@ export class ContactsForm extends Component {
         }
 
         this.setState({
-            pictures: this.state.pictures.concat(picture[0]),
+            pictures: this.state.pictures.concat(picture),
         });
     };
 
