@@ -1,0 +1,30 @@
+@import "../../../ui/styles/colors";
+
+.ContactsFooter {
+
+  &__blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+    color: $c-txt-lighter;
+    font-size: 12px;
+
+    ul {
+      display: flex;
+      align-items: center;
+
+      li {
+        padding: 0 10px;
+
+        &:last-child {
+          padding-right: 0;
+        }
+        a:hover {
+          color: $c-main;
+          transition: color .3s;
+        }
+      }
+    }
+  }
+}

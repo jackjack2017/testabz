@@ -1,0 +1,43 @@
+@import "../../../../ui/styles/colors";
+
+.Person {
+
+  &:last-child {
+    border-bottom: 1px solid $c-border;
+
+    .Person__txtBlk {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__txtBlk {
+    display: flex;
+    margin-bottom: 18px;
+  }
+
+  h2 {
+    padding-bottom: 6px;
+  }
+
+  img {
+    margin-right: 10px;
+  }
+
+  span {
+    font-size: 14px;
+    color: $c-txt-lighter;
+    display: block;
+    padding-bottom: 3px;
+    line-height: 1.4;
+  }
+
+  a {
+    font-size: 12px;
+    display: block;
+    transition: color .3s;
+
+    &:hover{
+      color: $c-main;
+    }
+  }
+}

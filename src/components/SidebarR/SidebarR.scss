@@ -1,0 +1,18 @@
+@import "../../ui/styles/colors";
+
+.SidebarR {
+  min-width: 215px;
+  max-width: 215px;
+
+  &__img {
+    border: 1px solid $c-border;
+  }
+
+  &__site {
+    font-size: 12px;
+    color: #b7bfcd;
+    transition: color .3s;
+    display: block;
+    padding-top: 5px;
+  }
+}

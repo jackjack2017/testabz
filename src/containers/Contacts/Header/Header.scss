@@ -1,0 +1,16 @@
+@import "../../../ui/styles/colors";
+
+.ContactsHeader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  &__container {
+    max-width: 1370px;
+    padding: 35px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
