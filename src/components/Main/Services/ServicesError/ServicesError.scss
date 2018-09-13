@@ -1,0 +1,18 @@
+@import "../../../../ui/styles/colors";
+
+.ServicesError {
+  h2 {
+    font-weight: bold;
+    padding: 10px 0 20px;
+  }
+
+  p {
+    line-height: 1.5;
+    padding-bottom: 20px;
+
+    span {
+      color: $c-error;
+    }
+
+  }
+}

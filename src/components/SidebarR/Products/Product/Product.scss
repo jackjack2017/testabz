@@ -1,0 +1,45 @@
+@import "../../../../ui/styles/colors";
+
+.Product {
+  display: block;
+  transition: opacity .3s;
+
+  &:last-child {
+    border-bottom: 1px solid $c-border;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &__txtBlk {
+    display: flex;
+    margin-bottom: 17px;
+  }
+
+  h2 {
+    padding-bottom: 4px;
+  }
+
+  img {
+    margin-right: 10px;
+  }
+
+  span {
+    font-size: 14px;
+    color: $c-txt-lighter;
+    display: block;
+    line-height: 1.25;
+  }
+
+  a {
+    padding-top: 10px;
+    font-size: 12px;
+    display: block;
+    transition: color .3s;
+
+    &:hover{
+      color: $c-main;
+    }
+  }
+}

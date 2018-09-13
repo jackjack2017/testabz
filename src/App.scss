@@ -1,0 +1,179 @@
+@import "./ui/styles/colors";
+@import "./ui/styles/fonts";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $f-main;
+}
+
+.App {
+  max-width: 1440px;
+  min-width: 970px;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-l {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: $f-main;
+  line-height: 30px;
+  color: $c-white;
+  font-size: 14px;
+  background: $c-main-hover;
+  transition: background .3s;
+  padding: 0 15px;
+  border-radius: 5px;
+  text-align: center;
+
+  &:hover {
+    background: $c-main;
+  }
+}
+
+main {
+  margin: 14px;
+}
+
+.ttl {
+  display: block;
+  font-size: 14px;
+  color: $c-txt-lighter;
+  padding: 17px 0;
+}
+
+.lnk {
+  font-size: 14px;
+  color: $c-txt;
+  transition: color .3s;
+
+  &:hover {
+    color: $c-main;
+  }
+}
+
+input, textarea{
+  display: block;
+  width: 100%;
+  border: 2px solid $c-border;
+  color: $c-txt;
+  padding: 0 20px;
+  font-family: $f-main;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color .3s;
+
+  &:focus{
+    outline: none;
+  }
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  &::-moz-placeholder{
+    font-size: 16px;
+  }/* Firefox 19+ */
+  &:-moz-placeholder{
+    font-size: 16px;
+  }/* Firefox 18- */
+  &:-ms-input-placeholder{
+    font-size: 16px;
+  }
+
+  &.error {
+    border: 2px solid $c-error;
+  }
+}
+
+input{
+  height: 46px;
+  line-height: 46px;
+}
+
+.inpWrap {
+  padding-bottom: 20px;
+
+  &.sm {
+    width: 50%;
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  span {
+    padding-bottom: 10px;
+    display: block;
+
+    &.error {
+      font-size: 12px;
+      padding-top: 5px;
+      color: $c-error;
+    }
+  }
+
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.inpGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type='submit'],
+button[type='submit']{
+  outline: none;
+  cursor: pointer;
+}
+
+textarea{
+  resize: vertical;
+  padding: 20px;
+  height: 150px;
+}
+
+input[type=search] {
+  background: $c-main-hover;
+  border: none;
+  height: 35px;
+  line-height: 35px;
+  color: $c-white;
+  padding-left: 40px;
+  position: relative;
+
+  &::-webkit-input-placeholder {
+    color: $c-white;
+  }
+  &::-moz-placeholder{
+    color: $c-white;
+  }/* Firefox 19+ */
+  &:-moz-placeholder{
+    color: $c-white;
+  }/* Firefox 18- */
+  &:-ms-input-placeholder{
+    color: $c-white;
+  }
+}
+
+
+
+

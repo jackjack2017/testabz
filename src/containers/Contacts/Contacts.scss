@@ -1,0 +1,72 @@
+@import "../../ui/styles/colors";
+@import "../../ui/styles/fonts";
+
+$bg1: "../../assets/bg.jpg";
+$bg2: "../../assets/bg2.jpg";
+
+.Contacts {
+
+  &__top {
+    min-height: 510px;
+    background: $c-txt-light url($bg1) center center no-repeat;
+    background-size: cover;
+    color: $c-white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: $f-second;
+  }
+
+  &__txtBlk {
+    margin-top: -30px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: normal;
+      padding-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 500px;
+      line-height: 1.4;
+    }
+  }
+
+  &__about {
+    border-bottom: 1px solid $c-border;
+  }
+
+  &__aboutBlk {
+    padding: 100px 0;
+
+    h2 {
+      font-size: 30px;
+      padding-bottom: 50px;
+      text-align: center;
+      font-weight: lighter;
+    }
+  }
+
+  &__aboutTxt {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 16px;
+      color: $c-txt-light;
+      max-width: 600px;
+      font-weight: lighter;
+      line-height: 1.4;
+    }
+  }
+
+  &__formBlk {
+    background: $c-txt-light url($bg2) center center no-repeat;
+    background-size: cover;
+    min-height: 815px;
+    position: relative;
+  }
+}

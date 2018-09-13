@@ -1,0 +1,55 @@
+@import "../../ui/styles/colors";
+
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background: $c-white;
+  width: 400px;
+  border: 1px solid $c-txt-hover;
+  border-top: 5px solid $c-txt-hover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 15px;
+  left: 50%;
+  margin-left: -150px;
+  top: 30%;
+  transition: all .3s ease-out;
+  text-align: center;
+  transform: translateY(-150vh);
+  opacity: 0;
+
+  &.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  &__close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: opacity .3s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .7;
+    }
+
+    &:before, &:after {
+      content: "";
+      display: block;
+      border-top: 2px solid $c-main;
+      position: absolute;
+      top: 9px;
+      right: 3px;
+      width: 90%;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      transform: rotate(135deg);
+      transform-origin: 50% 50%;
+    }
+  }
+}
