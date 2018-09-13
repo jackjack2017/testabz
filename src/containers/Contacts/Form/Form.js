@@ -84,7 +84,7 @@ export class ContactsForm extends Component {
             this.setState(
                 {
                     description: '',
-                    descriptionCount: 0,
+                    descriptionCount: e.target.value.length,
                     descriptionError: true
                 }
             );
